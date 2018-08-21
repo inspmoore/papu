@@ -7,7 +7,7 @@
     "test": "jest",
     "start-ios": "react-native run-ios",
     "start-web": "react-scripts start",
-    "build-web": "react-scripts build",
+    "build": "react-scripts build",
     "test-web": "react-scripts test --env=jsdom",
     "eject-web": "react-scripts eject"
   },
