@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: Theme.COLOR_4,
-    fontFamily: 'Avenir, Helvetica Neue, Arial',
+    fontFamily: 'Avenir',
     textAlign: 'center'
   },
   header: {

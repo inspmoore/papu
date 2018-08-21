@@ -1,6 +1,9 @@
 import { ActionTypes } from '../constants/constants'
 
-const _initialState = {}
+const _initialState = {
+  pending: false,
+  complete: false
+}
 
 export default function reducer(state = _initialState, action) {
   switch (action.type) {

@@ -4,10 +4,11 @@ import { Theme } from '../constants/constants'
 import YouRockIcon from './icons/YouRockIcon'
 import PropTypes from 'prop-types'
 import BigButton from './BigButton'
+import pop from '../utils/pop'
 
 const PaymentSuccess = ({ navigation }) => {
   const handlePress = () => {
-    navigation.navigate('Menu')
+    pop({ screen: 'Menu', n: 3, navigation })
   }
   return (
     <View style={styles.main}>
@@ -40,7 +41,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: Theme.COLOR_4,
-    fontFamily: 'Avenir, Helvetica Neue, Arial',
+    fontFamily: 'Avenir',
     textAlign: 'center'
   },
   header: {

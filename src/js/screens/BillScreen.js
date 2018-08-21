@@ -13,8 +13,8 @@ class BillScreen extends React.Component {
   }
 
   goToCart() {
-    const { isOrderID, navigation } = this.props
-    if (!isOrderID) {
+    const { pending, complete, navigation } = this.props
+    if (!pending && !complete) {
       pop({ screen: 'Cart', n: 3, navigation })
     }
   }
@@ -31,15 +31,16 @@ class BillScreen extends React.Component {
 
 const mapStateToProps = state => ({
   errorMessage: getErrorMessages(state),
-  isOrderID: state.order.id
+  pending: state.payment.pending,
+  complete: state.payment.complete
 })
 
 BillScreen.propTypes = {
   errorMessage: PropTypes.arrayOf(
     PropTypes.shape({ detail: PropTypes.string })
   ),
-  isOrderID: PropTypes.string,
-  navigation: PropTypes.object
+  pending: PropTypes.bool,
+  complete: PropTypes.bool
 }
 
 export default connect(mapStateToProps)(BillScreen)
