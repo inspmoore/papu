@@ -40,7 +40,8 @@ BillScreen.propTypes = {
     PropTypes.shape({ detail: PropTypes.string })
   ),
   pending: PropTypes.bool,
-  complete: PropTypes.bool
+  complete: PropTypes.bool,
+  navigation: PropTypes.object
 }
 
 export default connect(mapStateToProps)(BillScreen)
