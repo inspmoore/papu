@@ -1,0 +1,25 @@
+<svg id="BasketFull" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 47.345">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ee1528;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 11px;
+        font-family: HelveticaNeue-Bold, Helvetica Neue;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <path id="Path_2" data-name="Path 2" class="cls-1" d="M39.2,20.931H36.35V20.2a4.194,4.194,0,0,0-3.39-4.111V8.274a.8.8,0,0,0-.8-.8H28.251a.8.8,0,0,0-.8.8v7.82a4.194,4.194,0,0,0-3.39,4.111v.726h-.815V4.989a.8.8,0,0,0-.8-.8h-4.9a.8.8,0,0,0-.8.8V20.931h-.575V17.4a.8.8,0,0,0-.8-.8H4.542a.8.8,0,0,0-.8.8v3.529H.8a.8.8,0,0,0-.8.8v4.89a.8.8,0,0,0,.8.8h.717v5.87A10.264,10.264,0,0,0,11.766,43.537H28.234A10.264,10.264,0,0,0,38.486,33.285v-5.87H39.2a.8.8,0,0,0,.8-.8v-4.89A.8.8,0,0,0,39.2,20.931ZM29.048,9.071h2.318v2.383H29.048ZM25.657,20.2a2.6,2.6,0,0,1,2.593-2.593.8.8,0,0,0,.8-.8V13.048h2.318v3.767a.8.8,0,0,0,.8.8A2.6,2.6,0,0,1,34.756,20.2v.726h-9.1ZM18.344,5.786h3.311V25.821H18.344ZM5.339,18.2h9.243v2.733H5.339ZM1.594,22.525H16.751v3.3H1.594Zm35.3,10.76a8.669,8.669,0,0,1-8.659,8.659H11.766a8.669,8.669,0,0,1-8.659-8.659v-5.87H36.892v5.87Zm1.514-7.464H23.249v-3.3H38.406v3.3Z" transform="translate(8 3.808)"/>
+  <path id="Path_3" data-name="Path 3" class="cls-1" d="M378.1,323.2h-.956a.8.8,0,1,0,0,1.594h.956a.8.8,0,1,0,0-1.594Z" transform="translate(-338.948 -290.278)"/>
+  <path id="Path_4" data-name="Path 4" class="cls-1" d="M84.048,323.2H63.012a.8.8,0,1,0,0,1.594H84.048a.8.8,0,1,0,0-1.594Z" transform="translate(-49.354 -290.278)"/>
+  <path id="Path_5" data-name="Path 5" class="cls-1" d="M88.51,371.137h-25.5a.8.8,0,1,0,0,1.594h25.5a.8.8,0,1,0,0-1.594Z" transform="translate(-49.354 -334.469)"/>
+  <path id="Path_6" data-name="Path 6" class="cls-1" d="M109.2,419.073H85.451a.8.8,0,1,0,0,1.594H109.2a.8.8,0,1,0,0-1.594Z" transform="translate(-70.04 -378.66)"/>
+  <g id="badge">
+    <circle id="Ellipse_26" data-name="Ellipse 26" class="cls-1" cx="9" cy="9" r="9"/>
+    <text id="_1" data-name="1" class="cls-2" transform="translate(0 2)"><tspan x="5.442" y="11">1</tspan></text>
+  </g>
+</svg>

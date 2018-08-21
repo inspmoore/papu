@@ -1,0 +1,15 @@
+<svg id="Symbol_1_1" data-name="Symbol 1 – 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ee1528;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="16" cy="16" r="16"/>
+  <path id="Path_1" data-name="Path 1" class="cls-2" d="M8.016-6.888v-5.256H6.384v5.256H1.152v1.632H6.384V0H8.016V-5.256h5.232V-6.888Z" transform="translate(8.848 22.144)"/>
+</svg>

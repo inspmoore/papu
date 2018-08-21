@@ -1,0 +1,20 @@
+.papu_modal_container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transform: scale(0.95, 0.95);
+  transition: all 0.1s ease-out;
+}
+
+.papu_modal_in {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.papu_modal_out {
+  opacity: 0;
+  transform: scale(0.95, 0.95);
+}

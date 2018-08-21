@@ -1,0 +1,15 @@
+{
+  "short_name": "papu",
+  "name": "papu - food is good",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#ee1528",
+  "background_color": "#ffffff"
+}
