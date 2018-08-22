@@ -113,6 +113,7 @@ const styles = StyleSheet.create({
   },
   drawer: {
     right: 56,
+    maxWidth: 400,
     backgroundColor: '#ffffff',
     opacity: 1
   }
