@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, ImageBackground, StyleSheet } from 'react-native'
+import { View, Text, ImageBackground, StyleSheet, Platform } from 'react-native'
 import PropTypes from 'prop-types'
 import { Theme } from '../constants/constants'
 import CloseIcon from './icons/CloseIcon'
@@ -37,7 +37,14 @@ const styles = StyleSheet.create({
   },
   textContainer: {
     paddingTop: 16,
-    paddingBottom: 16,
+    ...Platform.select({
+      web: {
+        paddingBottom: 40
+      },
+      native: {
+        paddingBottom: 16
+      }
+    }),
     paddingLeft: 8,
     paddingRight: 8,
     backgroundColor: '#ffffff80'
