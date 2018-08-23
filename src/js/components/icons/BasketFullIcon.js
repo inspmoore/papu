@@ -24,10 +24,16 @@ const BasketFullIcon = ({ color = '#000', size = 48, qy }) => {
           x={0}
         />
 
-        <text fill={color} fontSize="14" fontFamily="Avenir" fontWeight="700">
-          <tspan x={16} y={40}>
-            {qy}
-          </tspan>
+        <text
+          fill={color}
+          fontSize="14"
+          fontFamily="Avenir"
+          fontWeight="700"
+          x={20}
+          y={40}
+          textAnchor="middle"
+        >
+          {qy}
         </text>
       </g>
     </svg>
