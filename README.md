@@ -4,7 +4,7 @@
 
 ## What da? 🧐
 
-This little project is my humble attempt two bridge to worlds 🚠. The world of web apps and the world of native apps. Using [react native](https://facebook.github.io/react-native/) and [react dom](https://reactjs.org/). Majority of code share the same base. This means that almost every screen and component you see is an universal one, shared between those two platforms. This reduces the codebase to maintain, thus reducing the cost of development 💰!
+This little project is my humble attempt two bridge to worlds 🚠. The world of web apps and the world of native apps. Using [react native](https://facebook.github.io/react-native/) and [react dom](https://reactjs.org/). Majority of code share the same base. This means that almost every screen and component you see is a universal one, shared between those two platforms. This reduces the codebase to maintain, thus reducing the cost of development 💰!
 
 ### What does it do?
 
@@ -38,7 +38,7 @@ One of the biggest challenges was to create a universal way of navigating betwee
 
 React Native Web is a great lib. Without it, the whole project would be impossible to exist. Still it lacks some functionality, components and it's sometimes buggy, so you need to be creative to find your own solutions.
 
-## Building and contrubuting
+## Building and contributing
 
 If you want to check the code yourself, make some changes or add something to it you are more then welcome!
 You need to have create-react-app scripts installed
