@@ -30,8 +30,7 @@ const styles = StyleSheet.create({
     elevation: 1
   },
   text: {
-    fontFamily: 'Avenir',
-    fontWeight: '700',
+    fontFamily: Theme.FONT_BLACK,
     color: Theme.COLOR_2,
     padding: 12
   },

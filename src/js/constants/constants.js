@@ -54,5 +54,8 @@ export const Theme = {
   COLOR_1: '#ee1528',
   COLOR_2: '#f2f2f2',
   COLOR_3: '#0B0B0B',
-  COLOR_4: '#09ACE8'
+  COLOR_4: '#09ACE8',
+  FONT_BOOK: 'Avenir-Book',
+  FONT_MEDIUM: 'Avenir-Medium',
+  FONT_BLACK: 'Avenir-Black'
 }

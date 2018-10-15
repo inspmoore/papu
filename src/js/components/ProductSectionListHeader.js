@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 20,
-    fontWeight: '200',
+    fontFamily: 'Avenir-Book',
     color: Theme.COLOR_3
   }
 })

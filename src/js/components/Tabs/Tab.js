@@ -1,6 +1,7 @@
 import React from 'react'
 import { Text, TouchableHighlight, StyleSheet } from 'react-native'
 import PropTypes from 'prop-types'
+import { Theme } from '../../constants/constants'
 
 const tabStyles = StyleSheet.create({
   main: {
@@ -12,7 +13,8 @@ const tabStyles = StyleSheet.create({
     paddingRight: 8
   },
   label: {
-    color: '#ee1528'
+    color: '#ee1528',
+    fontFamily: Theme.FONT_BOOK
   }
 })
 
